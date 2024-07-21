@@ -271,19 +271,19 @@
 - 빈곤에 맞서다
 - 가우디, 예언자적인 건축가(?)
 - 탈춤 매뉴얼
-- 미학 오디세이 3
+- 미학 오디세이 3 - [글](https://laeyoung.tistory.com/entry/%EB%AF%B8%ED%95%99-%EC%98%A4%EB%94%94%EC%84%B8%EC%9D%B4-3)
 - 북유럽 디자인 경영
 - 방랑
-- 대한민국 원주민
-- 사람들 사이로
-- 자본주의 역사 바로 알기
+- 대한민국 원주민 - [글](https://laeyoung.tistory.com/entry/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EC%9B%90%EC%A3%BC%EB%AF%BC)
+- 사람들 사이로 - [글](https://laeyoung.tistory.com/entry/%EC%82%AC%EB%9E%8C%EB%93%A4-%EC%82%AC%EC%9D%B4%EB%A1%9C)
+- 자본주의 역사 바로 알기 - [글](https://laeyoung.tistory.com/entry/%EC%9E%90%EB%B3%B8%EC%A3%BC%EC%9D%98-%EC%97%AD%EC%82%AC-%EB%B0%94%EB%A1%9C-%EC%95%8C%EA%B8%B0)
 - 사회 네트워크 분석
 - 윤미네 집
-- 그 섬에 내가 있었네
-- 서양미술사 1
-- 크로스
-- 컬처코드
-- 어둠 속의 남자
+- 그 섬에 내가 있었네 - [글](https://laeyoung.tistory.com/entry/%EA%B7%B8-%EC%84%AC%EC%97%90-%EB%82%B4%EA%B0%80-%EC%9E%88%EC%97%88%EB%84%A4)
+- 서양미술사 1 - [글](https://laeyoung.tistory.com/entry/%EC%84%9C%EC%96%91%EB%AF%B8%EC%88%A0%EC%82%AC-1)
+- 크로스 - [글](https://laeyoung.tistory.com/entry/%ED%81%AC%EB%A1%9C%EC%8A%A4)
+- 컬처코드 - [글](https://laeyoung.tistory.com/entry/%EC%BB%AC%EC%B2%98%EC%BD%94%EB%93%9C)
+- 어둠 속의 남자 - [글](https://laeyoung.tistory.com/entry/%EC%96%B4%EB%91%A0-%EC%86%8D%EC%9D%98-%EB%82%A8%EC%9E%90-%ED%8F%B4-%EC%98%A4%EC%8A%A4%ED%84%B0)
 - 광고천재 이제석 - 세계를 놀래킨 간판쟁이의 필살 아이디어
 - 한권 (책 이름이 기억 안나서 찾는 중)
 
@@ -291,10 +291,10 @@
 - 태양아래 모든 것이 특허 대상이다
 - 위트상식사전(▲)
 - 상상력의 천국, MIT 미디어랩
-- 대한민국 표류기
+- 대한민국 표류기 - [글](https://laeyoung.tistory.com/entry/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%ED%91%9C%EB%A5%98%EA%B8%B0)
 - 스티브 잡스의 프레젠테이션
-- 88만원 세대
-- 인간실격
+- 88만원 세대 - [글](https://laeyoung.tistory.com/entry/88%EB%A7%8C%EC%9B%90%EC%84%B8%EB%8C%80)
+- 인간실격 - [글](https://laeyoung.tistory.com/entry/%EC%9D%B8%EA%B0%84%EC%8B%A4%EA%B2%A9)
 - 나의 첫번째 사진책
 - 유진 스미스 (열화당 사진문고)
 - 구본창 (열화당 사진문고)
@@ -315,22 +315,22 @@
 - Banksy - Wall and Piece
 - 영화의 탄생
 - Camera People - Photographs by 100 People
-- 민족이란 무엇인가 - 에르네스트 르낭
+- 민족이란 무엇인가 - 에르네스트 르낭 - [글](https://laeyoung.tistory.com/entry/%EB%AF%BC%EC%A1%B1%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%EC%97%90%EB%A5%B4%EB%84%A4%EC%8A%A4%ED%8A%B8-%EB%A5%B4%EB%82%AD)
 - Camera People2 - Photographs by 100 People
 - on the road
-- 지식인의 책무
+- 지식인의 책무 - [글](https://laeyoung.tistory.com/entry/%EC%A7%80%EC%8B%9D%EC%9D%B8%EC%9D%98-%EC%B1%85%EB%AC%B4-%EB%85%B8%EC%95%94-%EC%B4%98%EC%8A%A4%ED%82%A4)
 - 현장에서 만난 20th C
 - 이공계로 날고 싶어요
 - 하늘에서 본 지구
-- 동물농장
+- 동물농장 - [글](https://laeyoung.tistory.com/entry/%EB%8F%99%EB%AC%BC%EB%86%8D%EC%9E%A5)
 - 카프카 단편선(변신, 선고 외...) (▲)
 - 그림으로 이해하는 정치사상
-- 러셀이 들려주는 패러독스 이야기
-- 깜삐돌리오 언덕에 앉아 그림을 그리다
+- 러셀이 들려주는 패러독스 이야기 - [글](https://laeyoung.tistory.com/entry/%EB%9F%AC%EC%85%80%EC%9D%B4-%EB%93%A4%EB%A0%A4%EC%A3%BC%EB%8A%94-%ED%8C%A8%EB%9F%AC%EB%8F%85%EC%8A%A4-%EC%9D%B4%EC%95%BC%EA%B8%B0)
+- 깜삐돌리오 언덕에 앉아 그림을 그리다 - [글](https://laeyoung.tistory.com/entry/%EA%B9%9C%EC%82%90%EB%8F%8C%EB%A6%AC%EC%98%A4-%EC%96%B8%EB%8D%95%EC%97%90-%EC%95%89%EC%95%84-%EA%B7%B8%EB%A6%BC%EC%9D%84-%EA%B7%B8%EB%A6%AC%EB%8B%A4)
 - 백치를 철학자로 만드는 Royal-Raod
 - 미학 오디세이 1
 - What's Next 애플&닌텐도
-- 호밀밭의 파수꾼
+- 호밀밭의 파수꾼 - [글](https://laeyoung.tistory.com/entry/%ED%98%B8%EB%B0%80%EB%B0%AD%EC%9D%98-%ED%8C%8C%EC%88%98%EA%BE%BC)
 - 왜 세계의 절반은 굶주리는가?
 - JD 샐린저와 호밀밭의 파수꾼
 - 끝도 없는 일 깔끔하게 해치우기
@@ -340,26 +340,26 @@
 - 미학 오디세이 2
 
 ### 2007년
-- 굴러라 유럽! - 두근두근 자동차여행 가이드북
-- 교양 - 사람이 알아야 할 모든 것
+- 굴러라 유럽! - 두근두근 자동차여행 가이드북 - [글](https://laeyoung.tistory.com/entry/%EA%B5%B4%EB%9F%AC%EB%9D%BC-%EC%9C%A0%EB%9F%BD-%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC-%EC%9E%90%EB%8F%99%EC%B0%A8%EC%97%AC%ED%96%89-%EA%B0%80%EC%9D%B4%EB%93%9C%EB%B6%81)
+- 교양 - 사람이 알아야 할 모든 것 - [글](https://laeyoung.tistory.com/entry/%EA%B5%90%EC%96%91-%EC%82%AC%EB%9E%8C%EC%9D%B4-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EB%AA%A8%EB%93%A0-%EA%B2%83)
 - Inferno (사진집)
 - 필립 퍼키스의 사진강의 노트
 - Smile Again!
-- 시맨틱 웹 - 웹 2.0시대의 기회
+- 시맨틱 웹 - 웹 2.0시대의 기회 - [글](https://laeyoung.tistory.com/entry/%EC%8B%9C%EB%A7%A8%ED%8B%B1-%EC%9B%B9-%EC%9B%B9-20%EC%8B%9C%EB%8C%80%EC%9D%98-%EA%B8%B0%ED%9A%8C)
 - 김영갑 1957~2005 (사진집)
-- 경제 저격수의 고백
-- 조엘 온 소프트웨어
-- 너, 외롭구나
+- 경제 저격수의 고백 - [글](https://laeyoung.tistory.com/entry/%EA%B2%BD%EC%A0%9C-%EC%A0%80%EA%B2%A9%EC%88%98%EC%9D%98-%EA%B3%A0%EB%B0%B1)
+- 조엘 온 소프트웨어 - [글](https://laeyoung.tistory.com/entry/%EC%A1%B0%EC%97%98-%EC%98%A8-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)
+- 너, 외롭구나 - [글](https://laeyoung.tistory.com/entry/%EB%84%88-%EC%99%B8%EB%A1%AD%EA%B5%AC%EB%82%98)
 - 난징의 강간
 - 한 줄도 너무 길다
-- 서른살부터 시작하는 주식재테크
+- 서른살부터 시작하는 주식재테크 - [글](https://laeyoung.tistory.com/entry/%EC%84%9C%EB%A5%B8%EC%82%B4%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-%EC%A3%BC%EC%8B%9D%EC%9E%AC%ED%85%8C%ED%81%AC)
 - 두나's 도쿄놀이
 - 펀드투자가 미래의 부를 결정한다
 - 스누피의 글쓰기 완전정복
 - 물오르다 (사진집)
 - Photography Book
 - 디지털 포토그래퍼를 위한 사진관리·보정 가이드
-- 마니아를 위한 세계 SF 걸작선
+- 마니아를 위한 세계 SF 걸작선 - [글](https://laeyoung.tistory.com/entry/%EB%A7%88%EB%8B%88%EC%95%84%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%84%B8%EA%B3%84-SF-%EA%B1%B8%EC%9E%91%EC%84%A0)
 - 딸기아빠의 펀펀 재테크 (▲)
 
 ### 2006년
