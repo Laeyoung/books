@@ -1,0 +1,59 @@
+# 이 파일을 .github/workflows/book-stats.yml 로 복사하세요.
+# cp .github/scripts/book-stats.workflow.yml .github/workflows/book-stats.yml
+#
+# GitHub App 권한 제한으로 workflows 디렉토리에 직접 push할 수 없어
+# 템플릿 형태로 제공됩니다.
+#
+# 사전 설정:
+#   1. Repository Settings > Secrets > GEMINI_API_KEY 추가
+#   2. 이 파일을 .github/workflows/book-stats.yml 로 복사 후 commit & push
+
+name: Update Book Stats
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r .github/scripts/requirements.txt
+
+      - name: Generate book stats
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          README_PATH: README.md
+          STATS_OUTPUT: STATS.md
+          CACHE_PATH: .github/scripts/category_cache.json
+        run: python .github/scripts/generate_stats.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add STATS.md .github/scripts/category_cache.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Update book stats"
+            git push
+          fi
