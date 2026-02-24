@@ -99,11 +99,15 @@ def categorize_books_with_gemini(
 
     all_categorized: dict[str, str] = {}
 
-    # 배치 처리 (한 번에 최대 40권씩)
-    batch_size = 40
-    for i in range(0, len(books), batch_size):
+    # 배치 처리 (한 번에 최대 100권씩 — API 호출 횟수를 최소화)
+    batch_size = 100
+    total_batches = (len(books) + batch_size - 1) // batch_size
+    for batch_idx, i in enumerate(range(0, len(books), batch_size)):
         batch = books[i : i + batch_size]
         book_list = "\n".join([f"{idx+1}. {b}" for idx, b in enumerate(batch)])
+        print(
+            f"  배치 {batch_idx + 1}/{total_batches} ({len(batch)}권) 처리 중..."
+        )
 
         prompt = f"""다음은 한국어 책 제목 목록입니다. 각 책을 아래 카테고리 중 하나로 분류해주세요.
 정확히 하나의 카테고리만 선택해야 합니다.
@@ -118,7 +122,7 @@ def categorize_books_with_gemini(
 {{"1": "카테고리명", "2": "카테고리명", ...}}
 """
 
-        max_retries = 3
+        max_retries = 5
         for attempt in range(max_retries):
             try:
                 response = model.generate_content(prompt)
@@ -147,6 +151,17 @@ def categorize_books_with_gemini(
                     file=sys.stderr,
                 )
             except Exception as e:
+                err_str = str(e).lower()
+                # Rate limit / quota 오류 시 더 긴 대기
+                if "429" in err_str or "quota" in err_str or "rate" in err_str:
+                    wait = min(2 ** (attempt + 2), 60)
+                    print(
+                        f"  Rate limit 감지, {wait}초 대기 "
+                        f"(시도 {attempt + 1}/{max_retries})",
+                        file=sys.stderr,
+                    )
+                    time.sleep(wait)
+                    continue
                 print(
                     f"  API 오류 (시도 {attempt + 1}/{max_retries}): {e}",
                     file=sys.stderr,
@@ -160,9 +175,9 @@ def categorize_books_with_gemini(
                 if book_title not in all_categorized:
                     all_categorized[book_title] = "기타"
 
-        # API rate limit 대응
+        # API rate limit 대응 — 배치 간 충분한 간격
         if i + batch_size < len(books):
-            time.sleep(1)
+            time.sleep(2)
 
     return all_categorized
 
