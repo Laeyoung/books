@@ -51,6 +51,12 @@ def parse_books_from_readme(readme_path: str) -> dict[str, list[str]]:
             clean_title = re.sub(
                 r"\s*\(포기\)", "", clean_title
             )  # 포기 제거
+            clean_title = re.sub(
+                r"\s*\(오디오북\)", "", clean_title
+            )  # 오디오북 제거
+            clean_title = re.sub(
+                r"\s*\(\s*\)", "", clean_title
+            )  # 빈 괄호 제거
             clean_title = clean_title.strip()
             clean_title = clean_title.rstrip(",").strip()
             if clean_title:
@@ -64,7 +70,10 @@ def categorize_books_with_gemini(
 ) -> dict[str, str]:
     """Gemini API를 사용하여 책들을 카테고리별로 분류한다."""
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-2.0-flash-lite")
+    model = genai.GenerativeModel(
+        "gemini-2.5-flash-lite",
+        generation_config={"response_mime_type": "application/json"},
+    )
 
     categories = {
         "소설/문학": "Fiction, Literature, Novel, Short stories, Poetry",
@@ -105,8 +114,8 @@ def categorize_books_with_gemini(
 책 목록:
 {book_list}
 
-응답은 반드시 아래 JSON 형식으로만 답하세요. 다른 텍스트 없이 JSON만 출력하세요:
-{{"책제목1": "카테고리", "책제목2": "카테고리", ...}}
+응답은 반드시 아래 JSON 형식으로만 답하세요. 키는 책 번호(문자열), 값은 카테고리명입니다:
+{{"1": "카테고리명", "2": "카테고리명", ...}}
 """
 
         max_retries = 3
@@ -118,22 +127,13 @@ def categorize_books_with_gemini(
                 json_match = re.search(r"\{.*\}", text, re.DOTALL)
                 if json_match:
                     result = json.loads(json_match.group())
-                    # 원본 제목과 매핑
-                    for book_title in batch:
-                        matched = False
-                        for key, cat in result.items():
-                            if (
-                                key in book_title
-                                or book_title in key
-                                or key.strip() == book_title.strip()
-                            ):
-                                if cat in categories:
-                                    all_categorized[book_title] = cat
-                                else:
-                                    all_categorized[book_title] = "기타"
-                                matched = True
-                                break
-                        if not matched:
+                    # 번호 기반 매핑
+                    for idx, book_title in enumerate(batch):
+                        str_idx = str(idx + 1)
+                        cat = result.get(str_idx, "기타")
+                        if cat in categories:
+                            all_categorized[book_title] = cat
+                        else:
                             all_categorized[book_title] = "기타"
                     break
                 else:
